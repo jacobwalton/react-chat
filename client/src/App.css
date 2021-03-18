@@ -35,7 +35,7 @@ body {
 
 .logIn input {
   margin: 10px;
-  width: 100px;
+  width: 90%;
   height: 40px;
   border: 3px solid rgb(159, 150, 245);
   outline: none;
@@ -48,7 +48,6 @@ body {
 }
 
 .logIn button {
-  margin: 10px;
   width: 100px;
   height: 48px;
   border: 3px solid rgb(159, 150, 245);
