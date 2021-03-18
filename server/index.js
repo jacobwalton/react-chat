@@ -16,6 +16,11 @@ io = socket(server);
 io.on("connection", (socket) => {
   console.log(socket.id);
 
+  socket.on("join_room", (data) => {
+    socket.join(data);
+    console.log("User joined room: ", data);
+  });
+
   socket.on("disconnet", () => {
     console.log("USER DISCONNECTED");
   });
